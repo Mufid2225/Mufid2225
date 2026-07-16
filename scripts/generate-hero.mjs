@@ -4,13 +4,22 @@ import sharp from "sharp";
 
 const root = resolve(import.meta.dirname, "..");
 const output = resolve(root, "assets/hero");
-const dotColumns = 70;
-const dotRows = 70;
+const portraitColumns = 84;
+const portraitRows = 84;
 const { data: portraitPixels } = await sharp(resolve(root, "assets/portrait-cutout.png"))
-  .resize(dotColumns, dotRows, { fit: "fill" })
+  .resize(portraitColumns, portraitRows, { fit: "fill" })
   .ensureAlpha()
   .raw()
   .toBuffer({ resolveWithObject: true });
+
+const portraitLuminance = [];
+for (let offset = 0; offset < portraitPixels.length; offset += 4) {
+  const [red, green, blue, alpha] = portraitPixels.subarray(offset, offset + 4);
+  if (alpha >= 105) portraitLuminance.push((red * 0.2126 + green * 0.7152 + blue * 0.0722) / 255);
+}
+portraitLuminance.sort((a, b) => a - b);
+const luminanceLow = portraitLuminance[Math.floor(portraitLuminance.length * 0.02)];
+const luminanceHigh = portraitLuminance[Math.floor(portraitLuminance.length * 0.98)];
 
 const themes = {
   dark: {
@@ -27,30 +36,34 @@ const themes = {
 
 const escape = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;");
 
-function dotPortrait(frame, colors, mobile) {
-  const stepX = mobile ? 4.8 : 6;
-  const stepY = stepX;
-  const totalWidth = (dotColumns - 1) * stepX;
-  const totalHeight = (dotRows - 1) * stepY;
+function asciiPortrait(frame, colors, mobile) {
+  const cellSize = mobile ? 4.05 : 5.15;
+  const fontSize = mobile ? 4.75 : 6;
+  const totalWidth = portraitColumns * cellSize;
+  const totalHeight = portraitRows * cellSize;
   const startX = frame.x + (frame.w - totalWidth) / 2;
   const startY = frame.y + (frame.h - totalHeight) / 2;
-  const dots = [];
+  const ramp = ".:-=+*#%@";
+  const glyphs = [];
 
-  for (let row = 0; row < dotRows; row++) {
-    for (let column = 0; column < dotColumns; column++) {
-      const offset = (row * dotColumns + column) * 4;
+  for (let row = 0; row < portraitRows; row++) {
+    for (let column = 0; column < portraitColumns; column++) {
+      const offset = (row * portraitColumns + column) * 4;
       const [red, green, blue, alpha] = portraitPixels.subarray(offset, offset + 4);
       if (alpha < 105) continue;
       const luminance = (red * 0.2126 + green * 0.7152 + blue * 0.0722) / 255;
-      const detail = 0.3 + luminance * 0.7;
-      const radius = (mobile ? 0.82 : 0.8) + detail * (mobile ? 1.3 : 1.18);
-      const opacity = Math.min(1, 0.54 + detail * 0.5) * (alpha / 255);
-      const color = luminance > 0.68 ? colors.cyan : (column + row) % 5 === 0 ? colors.cyan : colors.blue;
-      dots.push(`<circle cx="${(startX + column * stepX).toFixed(1)}" cy="${(startY + row * stepY).toFixed(1)}" r="${radius.toFixed(2)}" fill="${color}" opacity="${opacity.toFixed(2)}"/>`);
+      const normalized = Math.max(0, Math.min(1, (luminance - luminanceLow) / (luminanceHigh - luminanceLow)));
+      const contrast = normalized ** 0.82;
+      const character = ramp[Math.round(contrast * (ramp.length - 1))];
+      const color = contrast > 0.68 || (column + row) % 7 === 0 ? colors.cyan : colors.blue;
+      const opacity = Math.min(1, (0.62 + contrast * 0.38) * (alpha / 255));
+      const x = startX + (column + 0.5) * cellSize;
+      const y = startY + (row + 0.82) * cellSize;
+      glyphs.push(`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle" fill="${color}" opacity="${opacity.toFixed(2)}">${character}</text>`);
     }
   }
 
-  return `<g class="dot-portrait">${dots.join("")}</g>`;
+  return `<g class="ascii-portrait" font-family="'Courier New',monospace" font-size="${fontSize}" font-weight="700">${glyphs.join("")}</g>`;
 }
 
 function rows(items, x, y, width, lineHeight, colors) {
@@ -120,7 +133,7 @@ function svg(themeName, mobile) {
   <rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" rx="14" fill="${c.panel}" stroke="${c.cyan}" opacity=".9"/>
   <g clip-path="url(#portraitClip)">
     <rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" fill="url(#grid)"/>
-    ${dotPortrait(photo, c, mobile)}
+    ${asciiPortrait(photo, c, mobile)}
     <line x1="${photo.x}" y1="${photo.y + 80}" x2="${photo.x + photo.w}" y2="${photo.y + 80}" stroke="${c.cyan}" opacity=".35"><animate attributeName="y1" values="${photo.y};${photo.y + photo.h};${photo.y}" dur="7s" repeatCount="indefinite"/><animate attributeName="y2" values="${photo.y};${photo.y + photo.h};${photo.y}" dur="7s" repeatCount="indefinite"/></line>
   </g>
   <path d="M${photo.x + 18} ${photo.y + 45}V${photo.y + 18}H${photo.x + 58} M${photo.x + photo.w - 18} ${photo.y + photo.h - 45}V${photo.y + photo.h - 18}H${photo.x + photo.w - 58}" fill="none" stroke="${c.orange}" stroke-width="2"/>
