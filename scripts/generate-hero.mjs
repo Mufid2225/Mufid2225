@@ -103,6 +103,10 @@ function svg(themeName, mobile) {
   const info = mobile
     ? { x: 42, y: 490, w: 636, h: 552, tx: 68, ty: 535, line: 25, rw: 550 }
     : { x: 528, y: 82, w: 644, h: 470, tx: 558, ty: 127, line: 23, rw: 575 };
+  const revealStepCount = 20;
+  const infoRevealValues = Array.from({ length: revealStepCount }, (_, index) => Math.round(info.h * index / (revealStepCount - 1))).join(";");
+  const infoRevealTimes = Array.from({ length: revealStepCount }, (_, index) => (index / (revealStepCount - 1)).toFixed(3)).join(";");
+  const scanTravel = H - 176;
   const items = [
     { key: "Name", value: "Muhammad Mufid Arhaburrizqi" },
     { key: "Role", value: "AI & Automation Enthusiast" },
@@ -130,8 +134,10 @@ function svg(themeName, mobile) {
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${c.bg}"/><stop offset="1" stop-color="${c.panel}"/></linearGradient>
     <linearGradient id="edge"><stop stop-color="${c.orange}"/><stop offset=".45" stop-color="${c.cyan}"/><stop offset="1" stop-color="${c.blue}"/></linearGradient>
-    <linearGradient id="scanBeam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${c.cyan}" stop-opacity="0"/><stop offset=".46" stop-color="${c.cyan}" stop-opacity=".03"/><stop offset=".5" stop-color="${c.cyan}" stop-opacity=".2"/><stop offset=".54" stop-color="${c.cyan}" stop-opacity=".03"/><stop offset="1" stop-color="${c.cyan}" stop-opacity="0"/></linearGradient>
+    <linearGradient id="scanBeam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${c.cyan}" stop-opacity="0"/><stop offset=".4" stop-color="${c.cyan}" stop-opacity=".04"/><stop offset=".49" stop-color="${c.cyan}" stop-opacity=".2"/><stop offset=".5" stop-color="${c.cyan}" stop-opacity=".48"/><stop offset=".51" stop-color="${c.cyan}" stop-opacity=".2"/><stop offset=".6" stop-color="${c.cyan}" stop-opacity=".04"/><stop offset="1" stop-color="${c.cyan}" stop-opacity="0"/></linearGradient>
     <clipPath id="portraitClip"><rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" rx="14"/></clipPath>
+    <clipPath id="portraitReveal"><rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="0"><animate attributeName="height" from="0" to="${photo.h}" dur="2.2s" begin=".35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="infoReveal"><rect x="${info.x}" y="${info.y}" width="${info.w}" height="0"><animate attributeName="height" values="${infoRevealValues}" keyTimes="${infoRevealTimes}" calcMode="discrete" dur="3.6s" begin="1s" fill="freeze"/></rect></clipPath>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="${c.grid}" stroke-width="1" opacity=".28"/></pattern>
     <style>
       .mono{font-family:'Courier New',monospace}.micro{font:11px 'Courier New',monospace;letter-spacing:2px;fill:${c.muted}}.label{font:12px 'Courier New',monospace;letter-spacing:2px;fill:${c.cyan}}.row{font:14px 'Courier New',monospace;fill:${c.text}}.key,.section{font-weight:700;fill:${c.cyan}}.dots{fill:${c.muted}}.section{font:13px 'Courier New',monospace;letter-spacing:1px}
@@ -149,17 +155,23 @@ function svg(themeName, mobile) {
   <rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" rx="14" fill="${c.panel}" stroke="${c.cyan}" opacity=".9"/>
   <g clip-path="url(#portraitClip)">
     <rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" fill="url(#grid)"/>
-    ${asciiPortrait(photo, c, mobile)}
+    <g clip-path="url(#portraitReveal)">${asciiPortrait(photo, c, mobile)}</g>
   </g>
   <path d="M${photo.x + 18} ${photo.y + 45}V${photo.y + 18}H${photo.x + 58} M${photo.x + photo.w - 18} ${photo.y + photo.h - 45}V${photo.y + photo.h - 18}H${photo.x + photo.w - 58}" fill="none" stroke="${c.orange}" stroke-width="2"/>
 
   <text x="${info.x + 16}" y="${info.y - 10}" class="label">SYSTEM.INFO / BUILDER.PROFILE</text>
   <rect x="${info.x}" y="${info.y}" width="${info.w}" height="${info.h}" rx="14" fill="${c.panel}" fill-opacity=".5" stroke="${c.blue}" opacity=".9"/>
-  <text x="${info.tx}" y="${info.ty - 22}" class="mono" font-size="17" font-weight="700" fill="${c.orange}">MUFID@AUTOMATION-LAB</text>
-  ${rows(items, info.tx, info.ty + 8, info.rw, info.line, c)}
-  <text x="${info.tx}" y="${info.y + info.h - 20}" class="mono" font-size="13" fill="${c.cyan}"><tspan>▋</tspan> signal.ready &gt; LEARN / BUILD / AUTOMATE</text>
+  <g clip-path="url(#infoReveal)">
+    <text x="${info.tx}" y="${info.ty - 22}" class="mono" font-size="17" font-weight="700" fill="${c.orange}">MUFID@AUTOMATION-LAB</text>
+    ${rows(items, info.tx, info.ty + 8, info.rw, info.line, c)}
+    <text x="${info.tx}" y="${info.y + info.h - 20}" class="mono" font-size="13" fill="${c.cyan}"><tspan>▋</tspan> signal.ready &gt; LEARN / BUILD / AUTOMATE</text>
+  </g>
   <text x="${W / 2}" y="${H - 20}" text-anchor="middle" class="micro">AI AGENTS / WEB SYSTEMS / CONTINUOUS LEARNING</text>
-  <rect x="2" y="43" width="${W - 4}" height="90" fill="url(#scanBeam)" style="mix-blend-mode:${c.scanBlend}" pointer-events="none"><animate attributeName="y" values="43;${H - 133};43" dur="8s" repeatCount="indefinite"/></rect>
+  <g pointer-events="none" style="mix-blend-mode:${c.scanBlend}">
+    <rect x="2" y="43" width="${W - 4}" height="110" fill="url(#scanBeam)"/>
+    <line x1="2" y1="98" x2="${W - 2}" y2="98" stroke="${c.cyan}" stroke-width="1.5" opacity=".5"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 ${scanTravel};0 0" dur="7.5s" repeatCount="indefinite"/>
+  </g>
 </svg>`;
 }
 
