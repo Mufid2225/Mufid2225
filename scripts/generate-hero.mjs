@@ -136,7 +136,8 @@ function svg(themeName, mobile) {
   const info = mobile
     ? { x: 42, y: 490, w: 636, h: 552, tx: 68, ty: 535, line: 25, rw: 550 }
     : { x: 528, y: 82, w: 644, h: 470, tx: 558, ty: 127, line: 23, rw: 575 };
-  const scanTravel = H - 176;
+  const scanStart = -153;
+  const scanEnd = H - 43;
   const items = [
     { key: "Name", value: "Muhammad Mufid Arhaburrizqi" },
     { key: "Role", value: "AI & Automation Enthusiast" },
@@ -197,7 +198,7 @@ function svg(themeName, mobile) {
   <g pointer-events="none" style="mix-blend-mode:${c.scanBlend}">
     <rect x="2" y="43" width="${W - 4}" height="110" fill="url(#scanBeam)"/>
     <line x1="2" y1="98" x2="${W - 2}" y2="98" stroke="${c.cyan}" stroke-width="1.5" opacity=".5"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 ${scanTravel};0 0" dur="7.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 ${scanStart}" to="0 ${scanEnd}" dur="6.8s" repeatCount="indefinite"/>
   </g>
 </svg>`;
 }

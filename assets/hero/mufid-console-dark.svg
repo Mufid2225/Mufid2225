@@ -67,6 +67,6 @@
   <g pointer-events="none" style="mix-blend-mode:undefined">
     <rect x="2" y="43" width="1196" height="110" fill="url(#scanBeam)"/>
     <line x1="2" y1="98" x2="1198" y2="98" stroke="#22d3ee" stroke-width="1.5" opacity=".5"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 444;0 0" dur="7.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -153" to="0 577" dur="6.8s" repeatCount="indefinite"/>
   </g>
 </svg>
