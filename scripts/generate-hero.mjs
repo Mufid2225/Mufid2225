@@ -44,26 +44,41 @@ function asciiPortrait(frame, colors, mobile) {
   const startX = frame.x + (frame.w - totalWidth) / 2;
   const startY = frame.y + (frame.h - totalHeight) / 2;
   const ramp = ".:-=+*#%@";
-  const glyphs = [];
+  const segments = [];
 
   for (let row = 0; row < portraitRows; row++) {
+    let segmentStart = -1;
+    let characters = "";
+
+    const flushSegment = () => {
+      if (segmentStart === -1) return;
+      const x = startX + segmentStart * cellSize;
+      const y = startY + (row + 0.82) * cellSize;
+      const width = characters.length * cellSize;
+      const color = row % 5 === 0 ? colors.cyan : colors.blue;
+      segments.push(`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" textLength="${width.toFixed(1)}" lengthAdjust="spacing" fill="${color}" opacity=".94">${characters}</text>`);
+      segmentStart = -1;
+      characters = "";
+    };
+
     for (let column = 0; column < portraitColumns; column++) {
       const offset = (row * portraitColumns + column) * 4;
       const [red, green, blue, alpha] = portraitPixels.subarray(offset, offset + 4);
-      if (alpha < 105) continue;
+      if (alpha < 105) {
+        flushSegment();
+        continue;
+      }
       const luminance = (red * 0.2126 + green * 0.7152 + blue * 0.0722) / 255;
       const normalized = Math.max(0, Math.min(1, (luminance - luminanceLow) / (luminanceHigh - luminanceLow)));
       const contrast = normalized ** 0.82;
       const character = ramp[Math.round(contrast * (ramp.length - 1))];
-      const color = contrast > 0.68 || (column + row) % 7 === 0 ? colors.cyan : colors.blue;
-      const opacity = Math.min(1, (0.62 + contrast * 0.38) * (alpha / 255));
-      const x = startX + (column + 0.5) * cellSize;
-      const y = startY + (row + 0.82) * cellSize;
-      glyphs.push(`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle" fill="${color}" opacity="${opacity.toFixed(2)}">${character}</text>`);
+      if (segmentStart === -1) segmentStart = column;
+      characters += character;
     }
+    flushSegment();
   }
 
-  return `<g class="ascii-portrait" font-family="'Courier New',monospace" font-size="${fontSize}" font-weight="700">${glyphs.join("")}</g>`;
+  return `<g class="ascii-portrait" font-family="'Courier New',monospace" font-size="${fontSize}" font-weight="700">${segments.join("")}</g>`;
 }
 
 function rows(items, x, y, width, lineHeight, colors) {
@@ -115,6 +130,7 @@ function svg(themeName, mobile) {
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${c.bg}"/><stop offset="1" stop-color="${c.panel}"/></linearGradient>
     <linearGradient id="edge"><stop stop-color="${c.orange}"/><stop offset=".45" stop-color="${c.cyan}"/><stop offset="1" stop-color="${c.blue}"/></linearGradient>
+    <linearGradient id="scanBeam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${c.cyan}" stop-opacity="0"/><stop offset=".46" stop-color="${c.cyan}" stop-opacity=".03"/><stop offset=".5" stop-color="${c.cyan}" stop-opacity=".2"/><stop offset=".54" stop-color="${c.cyan}" stop-opacity=".03"/><stop offset="1" stop-color="${c.cyan}" stop-opacity="0"/></linearGradient>
     <clipPath id="portraitClip"><rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" rx="14"/></clipPath>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="${c.grid}" stroke-width="1" opacity=".28"/></pattern>
     <style>
@@ -134,7 +150,6 @@ function svg(themeName, mobile) {
   <g clip-path="url(#portraitClip)">
     <rect x="${photo.x}" y="${photo.y}" width="${photo.w}" height="${photo.h}" fill="url(#grid)"/>
     ${asciiPortrait(photo, c, mobile)}
-    <line x1="${photo.x}" y1="${photo.y + 80}" x2="${photo.x + photo.w}" y2="${photo.y + 80}" stroke="${c.cyan}" opacity=".35"><animate attributeName="y1" values="${photo.y};${photo.y + photo.h};${photo.y}" dur="7s" repeatCount="indefinite"/><animate attributeName="y2" values="${photo.y};${photo.y + photo.h};${photo.y}" dur="7s" repeatCount="indefinite"/></line>
   </g>
   <path d="M${photo.x + 18} ${photo.y + 45}V${photo.y + 18}H${photo.x + 58} M${photo.x + photo.w - 18} ${photo.y + photo.h - 45}V${photo.y + photo.h - 18}H${photo.x + photo.w - 58}" fill="none" stroke="${c.orange}" stroke-width="2"/>
 
@@ -144,6 +159,7 @@ function svg(themeName, mobile) {
   ${rows(items, info.tx, info.ty + 8, info.rw, info.line, c)}
   <text x="${info.tx}" y="${info.y + info.h - 20}" class="mono" font-size="13" fill="${c.cyan}"><tspan>▋</tspan> signal.ready &gt; LEARN / BUILD / AUTOMATE</text>
   <text x="${W / 2}" y="${H - 20}" text-anchor="middle" class="micro">AI AGENTS / WEB SYSTEMS / CONTINUOUS LEARNING</text>
+  <rect x="2" y="43" width="${W - 4}" height="90" fill="url(#scanBeam)" style="mix-blend-mode:${c.scanBlend}" pointer-events="none"><animate attributeName="y" values="43;${H - 133};43" dur="8s" repeatCount="indefinite"/></rect>
 </svg>`;
 }
 
