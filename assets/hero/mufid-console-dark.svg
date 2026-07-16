@@ -8,7 +8,22 @@
     <linearGradient id="scanBeam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".4" stop-color="#22d3ee" stop-opacity=".04"/><stop offset=".49" stop-color="#22d3ee" stop-opacity=".2"/><stop offset=".5" stop-color="#22d3ee" stop-opacity=".48"/><stop offset=".51" stop-color="#22d3ee" stop-opacity=".2"/><stop offset=".6" stop-color="#22d3ee" stop-opacity=".04"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
     <clipPath id="portraitClip"><rect x="28" y="82" width="475" height="470" rx="14"/></clipPath>
     <clipPath id="portraitReveal"><rect x="28" y="82" width="475" height="0"><animate attributeName="height" from="0" to="470" dur="2.2s" begin=".35s" fill="freeze"/></rect></clipPath>
-    <clipPath id="infoReveal"><rect x="528" y="82" width="644" height="0"><animate attributeName="height" values="0;25;49;74;99;124;148;173;198;223;247;272;297;322;346;371;396;421;445;470" keyTimes="0.000;0.053;0.105;0.158;0.211;0.263;0.316;0.368;0.421;0.474;0.526;0.579;0.632;0.684;0.737;0.789;0.842;0.895;0.947;1.000" calcMode="discrete" dur="3.6s" begin="1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="info-type-0"><rect x="558" y="85" width="0" height="26"><animate attributeName="width" from="0" to="575" dur=".58s" begin="0.80s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-1"><rect x="558" y="117" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="1.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-2"><rect x="558" y="140" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="1.26s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-3"><rect x="558" y="163" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="1.49s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-4"><rect x="558" y="186" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="1.72s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-5"><rect x="558" y="209" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="1.95s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-6"><rect x="558" y="255" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="2.28s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-7"><rect x="558" y="278" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="2.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-8"><rect x="558" y="301" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="2.74s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-9"><rect x="558" y="347" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="3.08s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-10"><rect x="558" y="370" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="3.31s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-11"><rect x="558" y="393" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="3.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-12"><rect x="558" y="439" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="3.87s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-13"><rect x="558" y="462" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="4.10s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-14"><rect x="558" y="485" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="4.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
+<clipPath id="info-type-15"><rect x="558" y="514" width="0" height="24"><animate attributeName="width" from="0" to="575" dur=".58s" begin="4.56s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 .75 .18 1"/></rect></clipPath>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#17304c" stroke-width="1" opacity=".28"/></pattern>
     <style>
       .mono{font-family:'Courier New',monospace}.micro{font:11px 'Courier New',monospace;letter-spacing:2px;fill:#718096}.label{font:12px 'Courier New',monospace;letter-spacing:2px;fill:#22d3ee}.row{font:14px 'Courier New',monospace;fill:#e6edf7}.key,.section{font-weight:700;fill:#22d3ee}.dots{fill:#718096}.section{font:13px 'Courier New',monospace;letter-spacing:1px}
@@ -32,27 +47,22 @@
 
   <text x="544" y="72" class="label">SYSTEM.INFO / BUILDER.PROFILE</text>
   <rect x="528" y="82" width="644" height="470" rx="14" fill="#08111f" fill-opacity=".5" stroke="#3b82f6" opacity=".9"/>
-  <g clip-path="url(#infoReveal)">
-    <text x="558" y="105" class="mono" font-size="17" font-weight="700" fill="#fb923c">MUFID@AUTOMATION-LAB</text>
-    <text x="558" y="135" class="row"><tspan class="key">Name</tspan><tspan class="dots">  .........  </tspan><tspan>Muhammad Mufid Arhaburrizqi</tspan></text>
-<text x="558" y="158" class="row"><tspan class="key">Role</tspan><tspan class="dots">  .........  </tspan><tspan>AI &amp; Automation Enthusiast</tspan></text>
-<text x="558" y="181" class="row"><tspan class="key">Education</tspan><tspan class="dots">  ....  </tspan><tspan>SMKN 2 Singosari</tspan></text>
-<text x="558" y="204" class="row"><tspan class="key">Current</tspan><tspan class="dots">  ......  </tspan><tspan>Intern at JV. Partner Indonesia</tspan></text>
-<text x="558" y="227" class="row"><tspan class="key">Status</tspan><tspan class="dots">  .......  </tspan><tspan>Software Engineering / Internship</tspan></text>
-
-<text x="558" y="273" class="section">FOCUS.STREAM</text><line x1="676.8" y1="269" x2="1133" y2="269" stroke="#22d3ee" opacity=".55"/>
-<text x="558" y="296" class="row"><tspan class="key">Primary</tspan><tspan class="dots">  ......  </tspan><tspan>AI Agents &amp; LLM Workflows</tspan></text>
-<text x="558" y="319" class="row"><tspan class="key">Build</tspan><tspan class="dots">  ........  </tspan><tspan>Full Stack Web Development</tspan></text>
-
-<text x="558" y="365" class="section">TOOLCHAIN</text><line x1="651.6" y1="361" x2="1133" y2="361" stroke="#22d3ee" opacity=".55"/>
-<text x="558" y="388" class="row"><tspan class="key">Core</tspan><tspan class="dots">  .........  </tspan><tspan>TypeScript / JavaScript / Next.js</tspan></text>
-<text x="558" y="411" class="row"><tspan class="key">Systems</tspan><tspan class="dots">  ......  </tspan><tspan>Tailwind CSS / Docker / Git</tspan></text>
-
-<text x="558" y="457" class="section">NETWORK</text><line x1="634.8" y1="453" x2="1133" y2="453" stroke="#22d3ee" opacity=".55"/>
-<text x="558" y="480" class="row"><tspan class="key">GitHub</tspan><tspan class="dots">  .......  </tspan><tspan>@Mufid2225</tspan></text>
-<text x="558" y="503" class="row"><tspan class="key">Portfolio</tspan><tspan class="dots">  ....  </tspan><tspan>mufid-homepage.dedyn.io</tspan></text>
-    <text x="558" y="532" class="mono" font-size="13" fill="#22d3ee"><tspan>▋</tspan> signal.ready &gt; LEARN / BUILD / AUTOMATE</text>
-  </g>
+  <g clip-path="url(#info-type-0)"><text x="558" y="105" class="mono" font-size="17" font-weight="700" fill="#fb923c">MUFID@AUTOMATION-LAB</text></g>
+<g clip-path="url(#info-type-1)"><text x="558" y="135" class="row"><tspan class="key">Name</tspan><tspan class="dots">  .........  </tspan><tspan>Muhammad Mufid Arhaburrizqi</tspan></text></g>
+<g clip-path="url(#info-type-2)"><text x="558" y="158" class="row"><tspan class="key">Role</tspan><tspan class="dots">  .........  </tspan><tspan>AI &amp; Automation Enthusiast</tspan></text></g>
+<g clip-path="url(#info-type-3)"><text x="558" y="181" class="row"><tspan class="key">Education</tspan><tspan class="dots">  ....  </tspan><tspan>SMKN 2 Singosari</tspan></text></g>
+<g clip-path="url(#info-type-4)"><text x="558" y="204" class="row"><tspan class="key">Current</tspan><tspan class="dots">  ......  </tspan><tspan>Intern at JV. Partner Indonesia</tspan></text></g>
+<g clip-path="url(#info-type-5)"><text x="558" y="227" class="row"><tspan class="key">Status</tspan><tspan class="dots">  .......  </tspan><tspan>Software Engineering / Internship</tspan></text></g>
+<g clip-path="url(#info-type-6)"><text x="558" y="273" class="section">FOCUS.STREAM</text><line x1="676.8" y1="269" x2="1133" y2="269" stroke="#22d3ee" opacity=".55"/></g>
+<g clip-path="url(#info-type-7)"><text x="558" y="296" class="row"><tspan class="key">Primary</tspan><tspan class="dots">  ......  </tspan><tspan>AI Agents &amp; LLM Workflows</tspan></text></g>
+<g clip-path="url(#info-type-8)"><text x="558" y="319" class="row"><tspan class="key">Build</tspan><tspan class="dots">  ........  </tspan><tspan>Full Stack Web Development</tspan></text></g>
+<g clip-path="url(#info-type-9)"><text x="558" y="365" class="section">TOOLCHAIN</text><line x1="651.6" y1="361" x2="1133" y2="361" stroke="#22d3ee" opacity=".55"/></g>
+<g clip-path="url(#info-type-10)"><text x="558" y="388" class="row"><tspan class="key">Core</tspan><tspan class="dots">  .........  </tspan><tspan>TypeScript / JavaScript / Next.js</tspan></text></g>
+<g clip-path="url(#info-type-11)"><text x="558" y="411" class="row"><tspan class="key">Systems</tspan><tspan class="dots">  ......  </tspan><tspan>Tailwind CSS / Docker / Git</tspan></text></g>
+<g clip-path="url(#info-type-12)"><text x="558" y="457" class="section">NETWORK</text><line x1="634.8" y1="453" x2="1133" y2="453" stroke="#22d3ee" opacity=".55"/></g>
+<g clip-path="url(#info-type-13)"><text x="558" y="480" class="row"><tspan class="key">GitHub</tspan><tspan class="dots">  .......  </tspan><tspan>@Mufid2225</tspan></text></g>
+<g clip-path="url(#info-type-14)"><text x="558" y="503" class="row"><tspan class="key">Portfolio</tspan><tspan class="dots">  ....  </tspan><tspan>mufid-homepage.dedyn.io</tspan></text></g>
+<g clip-path="url(#info-type-15)"><text x="558" y="532" class="mono" font-size="13" fill="#22d3ee"><tspan>▋</tspan> signal.ready &gt; LEARN / BUILD / AUTOMATE</text></g>
   <text x="600" y="600" text-anchor="middle" class="micro">AI AGENTS / WEB SYSTEMS / CONTINUOUS LEARNING</text>
   <g pointer-events="none" style="mix-blend-mode:undefined">
     <rect x="2" y="43" width="1196" height="110" fill="url(#scanBeam)"/>
