@@ -1,87 +1,70 @@
 #!/usr/bin/env python3
-"""Post-process Bomberman SVG: remove Player 2, keep Player 1 alive."""
+"""Post-process Bomberman SVG: remove Player 2, all bombs, keep Player 1 alive and walking."""
 
-import re, sys, os
+import re, sys
 
 
 def fix_bomberman_svg(svg: str) -> str:
-    # 1. Remove Player 2 sprite symbols
-    svg = re.sub(
-        r'<symbol id="bm-player-2-[^"]*"[^>]*>.*?</symbol>',
-        '',
-        svg,
-        flags=re.DOTALL,
-    )
+    # ── Player 2 removal ──
+    # Remove Player 2 sprite symbols
+    svg = re.sub(r'<symbol id="bm-player-2-[^"]*"[^>]*>.*?</symbol>', '', svg, flags=re.DOTALL)
+    # Remove Player 2 death symbols
+    svg = re.sub(r'<symbol id="bm-player-2-death-[^"]*"[^>]*>.*?</symbol>', '', svg, flags=re.DOTALL)
+    # Remove Player 2 use element
+    svg = re.sub(r'<use id="player-2"[^>]*>.*?</use>', '', svg, flags=re.DOTALL)
 
-    # 2. Remove Player 2 death symbols
-    svg = re.sub(
-        r'<symbol id="bm-player-2-death-[^"]*"[^>]*>.*?</symbol>',
-        '',
-        svg,
-        flags=re.DOTALL,
-    )
+    # ── Remove ALL bombs ──
+    svg = re.sub(r'<g id="bomb-\d+"[^>]*>.*?</g>', '', svg, flags=re.DOTALL)
 
-    # 3. Remove Player 2 use element entirely
-    svg = re.sub(
-        r'<use id="player-2"[^>]*>.*?</use>',
-        '',
-        svg,
-        flags=re.DOTALL,
-    )
+    # ── Remove ALL explosion shapes (bm-explosion-shape-*) ──
+    # These are defined as <g> elements in <defs> and referenced by explosions
+    svg = re.sub(r'<g id="bm-explosion-shape-[^"]*"[^>]*>.*?</g>', '', svg, flags=re.DOTALL)
 
-    # 4. Remove Player 2's bombs (bomb-0, bomb-1)
-    # These appear on the right side where Player 2 was
-    for bid in range(2):
-        svg = re.sub(
-            rf'<g id="bomb-{bid}"[^>]*>.*?</g>',
-            '',
-            svg,
-            flags=re.DOTALL,
-        )
-
-    # 5. Fix Player 1 href animation: remove death sprites
-    def fix_p1_href(m):
-        inner = m.group(0)
-        inner = re.sub(
-            r'keyTimes="[^"]*0\.8679[^"]*"',
-            'keyTimes="0;0.0377;0.0755;0.1132;0.1509;0.1887;0.2264;0.2642;0.3019;0.3396;0.3774;0.4151;0.4528;0.4906;0.5283;0.5472;0.566;0.5849;0.6038;0.717;0.7358;0.7547;0.7736;0.7925;1"',
-            inner,
-        )
-        inner = re.sub(
-            r'values="[^"]*bm-player-1-death[^"]*"',
-            'values="#bm-player-1-right-0;#bm-player-1-right-1;#bm-player-1-right-2;#bm-player-1-right-3;#bm-player-1-right-4;#bm-player-1-right-5;#bm-player-1-right-0;#bm-player-1-right-1;#bm-player-1-right-2;#bm-player-1-right-3;#bm-player-1-right-4;#bm-player-1-right-5;#bm-player-1-right-0;#bm-player-1-right-1;#bm-player-1-right-2;#bm-player-1-down-2;#bm-player-1-down-3;#bm-player-1-up-3;#bm-player-1-up-0;#bm-player-1-left-1;#bm-player-1-down-3;#bm-player-1-down-0;#bm-player-1-left-2;#bm-player-1-left-0;#bm-player-1-right-1;#bm-player-1-right-2"',
-            inner,
-        )
-        return inner
-
-    svg = re.sub(
-        r'<use id="player-1"[^>]*>.*?</use>',
-        fix_p1_href,
-        svg,
-        flags=re.DOTALL,
-    )
-
-    # 6. Fix Player 1 opacity: keep at 1 forever (remove death fade)
-    def fix_p1_opacity(m):
+    # ── Fix Player 1 ──
+    def fix_p1(m):
         block = m.group(0)
+
+        # Fix href: remove death sprite references
+        # Find current keyTimes and values
+        href_match = re.search(r'<animate attributeName="href"[^>]*keyTimes="([^"]+)"[^>]*values="([^"]+)"', block)
+        if href_match:
+            vals = href_match.group(2).split(';')
+            # Find first death sprite index
+            death_idx = next((i for i, v in enumerate(vals) if 'death' in v), len(vals))
+            if death_idx < len(vals):
+                # Truncate to before death, add looping frames
+                good_vals = vals[:death_idx]
+                good_times = href_match.group(1).split(';')[:death_idx]
+                # Make last keyTime = 1 and fill remaining with walking frames
+                good_vals.extend([good_vals[-1]] * 3)
+                good_times = [str(round(i * 0.99 / max(len(good_vals) - 1, 1), 6)) for i in range(len(good_vals) - 1)] + ['1']
+                # Pad keyTimes to match values count
+                while len(good_times) < len(good_vals):
+                    good_times.append('1')
+
+                block = re.sub(
+                    r'keyTimes="[^"]+"',
+                    f'keyTimes="{";".join(good_times)}"',
+                    block,
+                    count=1,
+                )
+                block = re.sub(
+                    r'values="[^"]+"',
+                    f'values="{";".join(good_vals)}"',
+                    block,
+                    count=1,
+                )
+
+        # Fix opacity: always 1 (no death)
         block = re.sub(
-            r'keyTimes="[^"]*\.9623[^"]*"',
-            'keyTimes="0;1"',
+            r'<animate attributeName="opacity"[^>]*keyTimes="[^"]*"[^>]*values="[^"]*"',
+            '<animate attributeName="opacity" calcMode="discrete" dur="5400ms" repeatCount="indefinite" keyTimes="0;1" values="1;1"/>',
             block,
         )
-        block = re.sub(
-            r'values="[^"]*0;0"',
-            'values="1;1"',
-            block,
-        )
+
         return block
 
-    svg = re.sub(
-        r'<use id="player-1"[^>]*>.*?</use>',
-        fix_p1_opacity,
-        svg,
-        flags=re.DOTALL,
-    )
+    svg = re.sub(r'<use id="player-1"[^>]*>.*?</use>', fix_p1, svg, flags=re.DOTALL)
 
     # Clean up empty lines
     svg = re.sub(r'\n\s*\n', '\n', svg)
@@ -91,20 +74,20 @@ def fix_bomberman_svg(svg: str) -> str:
 
 def main():
     if len(sys.argv) < 2:
-        print('Usage: fix_bomberman.py <svg_file>')
+        print('Usage: fix_bomberman.py <svg_file> [svg_file2 ...]')
         sys.exit(1)
 
-    path = sys.argv[1]
-    with open(path, 'r', encoding='utf-8') as f:
-        svg = f.read()
+    for path in sys.argv[1:]:
+        with open(path, 'r', encoding='utf-8') as f:
+            svg = f.read()
 
-    fixed = fix_bomberman_svg(svg)
-    with open(path, 'w', encoding='utf-8') as f:
-        f.write(fixed)
+        fixed = fix_bomberman_svg(svg)
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(fixed)
 
-    orig_size = len(svg) / 1024
-    new_size = len(fixed) / 1024
-    print(f'{path}: {orig_size:.1f}KB -> {new_size:.1f}KB')
+        orig_kb = len(svg) / 1024
+        new_kb = len(fixed) / 1024
+        print(f'{path}: {orig_kb:.1f}KB -> {new_kb:.1f}KB')
 
 
 if __name__ == '__main__':
