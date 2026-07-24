@@ -29,14 +29,8 @@ def fix_bomberman_svg(svg: str) -> str:
         flags=re.DOTALL,
     )
 
-    # 4. Remove Player 2's bombs (bomb-0, bomb-1)
-    for bid in range(2):
-        svg = re.sub(
-            rf'<g id="bomb-{bid}"[^>]*>.*?</g>',
-            '',
-            svg,
-            flags=re.DOTALL,
-        )
+    # 4. Remove Player 2's animateTransform (second one)
+    # This is handled by removing the whole use element above
 
     # 5. Fix Player 1 href animation: remove death sprites
     def fix_p1_href(m):
