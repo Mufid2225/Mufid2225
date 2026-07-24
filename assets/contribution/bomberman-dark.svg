@@ -1,0 +1,1446 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 195" width="870" height="195">
+<style>
+  svg { background:#0d1117; }
+  .bm { animation:bm 5.760s linear infinite; }
+  .ex-7-2 { animation:ex-7-2 5.760s linear infinite; }
+  .ex-8-3 { animation:ex-8-3 5.760s linear infinite; }
+  .ex-15-6 { animation:ex-15-6 5.760s linear infinite; }
+  .ex-16-1 { animation:ex-16-1 5.760s linear infinite; }
+  .ex-23-1 { animation:ex-23-1 5.760s linear infinite; }
+  .ex-23-4 { animation:ex-23-4 5.760s linear infinite; }
+  .ex-24-7 { animation:ex-24-7 5.760s linear infinite; }
+  .ex-26-2 { animation:ex-26-2 5.760s linear infinite; }
+  .ex-31-1 { animation:ex-31-1 5.760s linear infinite; }
+  .ex-37-3 { animation:ex-37-3 5.760s linear infinite; }
+  .ex-38-2 { animation:ex-38-2 5.760s linear infinite; }
+  .ex-38-5 { animation:ex-38-5 5.760s linear infinite; }
+  .ex-39-7 { animation:ex-39-7 5.760s linear infinite; }
+  .ex-44-7 { animation:ex-44-7 5.760s linear infinite; }
+  .ex-46-1 { animation:ex-46-1 5.760s linear infinite; }
+  .ex-47-7 { animation:ex-47-7 5.760s linear infinite; }
+  .xf-6-2 { animation:xf-6-2 5.760s linear infinite; }
+  .xf-7-1 { animation:xf-7-1 5.760s linear infinite; }
+  .xf-7-3 { animation:xf-7-3 5.760s linear infinite; }
+  .xf-8-2 { animation:xf-8-2 5.760s linear infinite; }
+  .xf-8-4 { animation:xf-8-4 5.760s linear infinite; }
+  .xf-9-3 { animation:xf-9-3 5.760s linear infinite; }
+  .xf-14-6 { animation:xf-14-6 5.760s linear infinite; }
+  .xf-15-1 { animation:xf-15-1 5.760s linear infinite; }
+  .xf-15-5 { animation:xf-15-5 5.760s linear infinite; }
+  .xf-15-7 { animation:xf-15-7 5.760s linear infinite; }
+  .xf-16-0 { animation:xf-16-0 5.760s linear infinite; }
+  .xf-16-2 { animation:xf-16-2 5.760s linear infinite; }
+  .xf-16-6 { animation:xf-16-6 5.760s linear infinite; }
+  .xf-17-1 { animation:xf-17-1 5.760s linear infinite; }
+  .xf-22-1 { animation:xf-22-1 5.760s linear infinite; }
+  .xf-22-4 { animation:xf-22-4 5.760s linear infinite; }
+  .xf-23-0 { animation:xf-23-0 5.760s linear infinite; }
+  .xf-23-2 { animation:xf-23-2 5.760s linear infinite; }
+  .xf-23-3 { animation:xf-23-3 5.760s linear infinite; }
+  .xf-23-5 { animation:xf-23-5 5.760s linear infinite; }
+  .xf-23-7 { animation:xf-23-7 5.760s linear infinite; }
+  .xf-24-1 { animation:xf-24-1 5.760s linear infinite; }
+  .xf-24-4 { animation:xf-24-4 5.760s linear infinite; }
+  .xf-24-6 { animation:xf-24-6 5.760s linear infinite; }
+  .xf-24-8 { animation:xf-24-8 5.760s linear infinite; }
+  .xf-25-2 { animation:xf-25-2 5.760s linear infinite; }
+  .xf-25-7 { animation:xf-25-7 5.760s linear infinite; }
+  .xf-26-1 { animation:xf-26-1 5.760s linear infinite; }
+  .xf-26-3 { animation:xf-26-3 5.760s linear infinite; }
+  .xf-27-2 { animation:xf-27-2 5.760s linear infinite; }
+  .xf-30-1 { animation:xf-30-1 5.760s linear infinite; }
+  .xf-31-0 { animation:xf-31-0 5.760s linear infinite; }
+  .xf-31-2 { animation:xf-31-2 5.760s linear infinite; }
+  .xf-32-1 { animation:xf-32-1 5.760s linear infinite; }
+  .xf-36-3 { animation:xf-36-3 5.760s linear infinite; }
+  .xf-37-2 { animation:xf-37-2 5.760s linear infinite; }
+  .xf-37-4 { animation:xf-37-4 5.760s linear infinite; }
+  .xf-37-5 { animation:xf-37-5 5.760s linear infinite; }
+  .xf-38-1 { animation:xf-38-1 5.760s linear infinite; }
+  .xf-38-3 { animation:xf-38-3 5.760s linear infinite; }
+  .xf-38-4 { animation:xf-38-4 5.760s linear infinite; }
+  .xf-38-6 { animation:xf-38-6 5.760s linear infinite; }
+  .xf-38-7 { animation:xf-38-7 5.760s linear infinite; }
+  .xf-39-2 { animation:xf-39-2 5.760s linear infinite; }
+  .xf-39-5 { animation:xf-39-5 5.760s linear infinite; }
+  .xf-39-6 { animation:xf-39-6 5.760s linear infinite; }
+  .xf-39-8 { animation:xf-39-8 5.760s linear infinite; }
+  .xf-40-7 { animation:xf-40-7 5.760s linear infinite; }
+  .xf-43-7 { animation:xf-43-7 5.760s linear infinite; }
+  .xf-44-6 { animation:xf-44-6 5.760s linear infinite; }
+  .xf-44-8 { animation:xf-44-8 5.760s linear infinite; }
+  .xf-45-1 { animation:xf-45-1 5.760s linear infinite; }
+  .xf-45-7 { animation:xf-45-7 5.760s linear infinite; }
+  .xf-46-0 { animation:xf-46-0 5.760s linear infinite; }
+  .xf-46-2 { animation:xf-46-2 5.760s linear infinite; }
+  .xf-46-7 { animation:xf-46-7 5.760s linear infinite; }
+  .xf-47-1 { animation:xf-47-1 5.760s linear infinite; }
+  .xf-47-6 { animation:xf-47-6 5.760s linear infinite; }
+  .xf-47-8 { animation:xf-47-8 5.760s linear infinite; }
+  .xf-48-7 { animation:xf-48-7 5.760s linear infinite; }
+</style>
+<rect x="0" y="0" width="870" height="195" fill="#0d1117"/>
+  <rect x="30.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="30.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="45.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="60.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="75.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="90.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="105.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="120.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="60.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="135.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="135.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="60.0" width="13" height="13" rx="2" fill="#0f6d31"/>
+  <rect x="150.0" y="75.0" width="13" height="13" rx="2" fill="#034525"/>
+  <rect x="150.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="150.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="165.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="180.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="195.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="210.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="225.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="240.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="120.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="255.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="255.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="45.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="270.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="270.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="285.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="300.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="315.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="330.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="345.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="360.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="375.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="375.0" y="45.0" width="13" height="13" rx="2" fill="#0f6d31"/>
+  <rect x="375.0" y="60.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="375.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="375.0" y="90.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="375.0" y="105.0" width="13" height="13" rx="2" fill="#034525"/>
+  <rect x="375.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="375.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="375.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="390.0" y="135.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="390.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="405.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="60.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="420.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="420.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="435.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="450.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="465.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="480.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="45.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="495.0" y="60.0" width="13" height="13" rx="2" fill="#0f6d31"/>
+  <rect x="495.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="495.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="510.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="525.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="540.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="555.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="570.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="75.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="585.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="585.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="60.0" width="13" height="13" rx="2" fill="#00c647"/>
+  <rect x="600.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="105.0" width="13" height="13" rx="2" fill="#034525"/>
+  <rect x="600.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="600.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="615.0" y="135.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="615.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="630.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="645.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="660.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="675.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="690.0" y="135.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="690.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="705.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="45.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="720.0" y="60.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="720.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="720.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="735.0" y="135.0" width="13" height="13" rx="2" fill="#01311f"/>
+  <rect x="735.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="750.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="765.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="780.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="795.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="810.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="30.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="45.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="60.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="75.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="90.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="105.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="120.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="135.0" width="13" height="13" rx="2" fill="#161b22"/>
+  <rect x="825.0" y="150.0" width="13" height="13" rx="2" fill="#161b22"/>
+<g class="bm">
+  <rect x="-26" y="-19.5" width="52" height="13" rx="2" fill="#3b82f6"/>
+  <rect x="-26" y="-6.5" width="52" height="13" rx="2" fill="#3b82f6"/>
+  <rect x="-6.5" y="-6.5" width="13" height="13" rx="2" fill="#2563eb"/>
+  <rect x="-26" y="6.5" width="13" height="13" rx="2" fill="#f5f5f5"/>
+  <rect x="13" y="6.5" width="13" height="13" rx="2" fill="#f5f5f5"/>
+  <rect x="-6.5" y="6.5" width="13" height="13" rx="2" fill="#ffffff"/>
+  <circle cx="-2" cy="9.1" r="1.5" fill="#1f2937"/>
+  <circle cx="2" cy="9.1" r="1.5" fill="#1f2937"/>
+  <rect x="-15.6" y="19.5" width="31.2" height="13" rx="2" fill="#ffffff"/>
+  <rect x="-15.6" y="32.5" width="13" height="5.2" rx="1" fill="#78350f"/>
+  <rect x="2.6" y="32.5" width="13" height="5.2" rx="1" fill="#78350f"/>
+</g>
+<style>
+@keyframes bm {
+  0.000% { transform:translate(51.5px,51.5px); }
+  1.042% { transform:translate(66.5px,51.5px); }
+  2.083% { transform:translate(81.5px,51.5px); }
+  3.125% { transform:translate(96.5px,51.5px); }
+  4.167% { transform:translate(111.5px,51.5px); }
+  5.208% { transform:translate(126.5px,51.5px); }
+  6.250% { transform:translate(141.5px,51.5px); }
+  7.292% { transform:translate(141.5px,51.5px); }
+  8.333% { transform:translate(141.5px,66.5px); }
+  9.375% { transform:translate(156.5px,66.5px); }
+  10.417% { transform:translate(156.5px,66.5px); }
+  11.458% { transform:translate(156.5px,81.5px); }
+  12.500% { transform:translate(156.5px,96.5px); }
+  13.542% { transform:translate(156.5px,111.5px); }
+  14.583% { transform:translate(171.5px,111.5px); }
+  15.625% { transform:translate(186.5px,111.5px); }
+  16.667% { transform:translate(201.5px,111.5px); }
+  17.708% { transform:translate(216.5px,111.5px); }
+  18.750% { transform:translate(231.5px,111.5px); }
+  19.792% { transform:translate(246.5px,111.5px); }
+  20.833% { transform:translate(261.5px,111.5px); }
+  21.875% { transform:translate(261.5px,111.5px); }
+  22.917% { transform:translate(261.5px,96.5px); }
+  23.958% { transform:translate(261.5px,81.5px); }
+  25.000% { transform:translate(261.5px,66.5px); }
+  26.042% { transform:translate(276.5px,66.5px); }
+  27.083% { transform:translate(276.5px,66.5px); }
+  28.125% { transform:translate(276.5px,51.5px); }
+  29.167% { transform:translate(291.5px,51.5px); }
+  30.208% { transform:translate(306.5px,51.5px); }
+  31.250% { transform:translate(321.5px,51.5px); }
+  32.292% { transform:translate(336.5px,51.5px); }
+  33.333% { transform:translate(351.5px,51.5px); }
+  34.375% { transform:translate(366.5px,51.5px); }
+  35.417% { transform:translate(366.5px,51.5px); }
+  36.458% { transform:translate(366.5px,66.5px); }
+  37.500% { transform:translate(366.5px,81.5px); }
+  38.542% { transform:translate(381.5px,81.5px); }
+  39.583% { transform:translate(381.5px,81.5px); }
+  40.625% { transform:translate(381.5px,96.5px); }
+  41.667% { transform:translate(381.5px,111.5px); }
+  42.708% { transform:translate(381.5px,126.5px); }
+  43.750% { transform:translate(396.5px,126.5px); }
+  44.792% { transform:translate(396.5px,126.5px); }
+  45.833% { transform:translate(396.5px,111.5px); }
+  46.875% { transform:translate(396.5px,96.5px); }
+  47.917% { transform:translate(396.5px,81.5px); }
+  48.958% { transform:translate(411.5px,81.5px); }
+  50.000% { transform:translate(426.5px,81.5px); }
+  51.042% { transform:translate(426.5px,81.5px); }
+  52.083% { transform:translate(426.5px,66.5px); }
+  53.125% { transform:translate(426.5px,51.5px); }
+  54.167% { transform:translate(441.5px,51.5px); }
+  55.208% { transform:translate(456.5px,51.5px); }
+  56.250% { transform:translate(471.5px,51.5px); }
+  57.292% { transform:translate(486.5px,51.5px); }
+  58.333% { transform:translate(486.5px,51.5px); }
+  59.375% { transform:translate(486.5px,66.5px); }
+  60.417% { transform:translate(501.5px,66.5px); }
+  61.458% { transform:translate(516.5px,66.5px); }
+  62.500% { transform:translate(531.5px,66.5px); }
+  63.542% { transform:translate(546.5px,66.5px); }
+  64.583% { transform:translate(561.5px,66.5px); }
+  65.625% { transform:translate(576.5px,66.5px); }
+  66.667% { transform:translate(591.5px,66.5px); }
+  67.708% { transform:translate(591.5px,66.5px); }
+  68.750% { transform:translate(591.5px,66.5px); }
+  69.792% { transform:translate(591.5px,81.5px); }
+  70.833% { transform:translate(591.5px,96.5px); }
+  71.875% { transform:translate(606.5px,96.5px); }
+  72.917% { transform:translate(606.5px,96.5px); }
+  73.958% { transform:translate(606.5px,111.5px); }
+  75.000% { transform:translate(606.5px,126.5px); }
+  76.042% { transform:translate(621.5px,126.5px); }
+  77.083% { transform:translate(621.5px,126.5px); }
+  78.125% { transform:translate(636.5px,126.5px); }
+  79.167% { transform:translate(651.5px,126.5px); }
+  80.208% { transform:translate(666.5px,126.5px); }
+  81.250% { transform:translate(681.5px,126.5px); }
+  82.292% { transform:translate(696.5px,126.5px); }
+  83.333% { transform:translate(696.5px,126.5px); }
+  84.375% { transform:translate(696.5px,111.5px); }
+  85.417% { transform:translate(696.5px,96.5px); }
+  86.458% { transform:translate(696.5px,81.5px); }
+  87.500% { transform:translate(696.5px,66.5px); }
+  88.542% { transform:translate(696.5px,51.5px); }
+  89.583% { transform:translate(711.5px,51.5px); }
+  90.625% { transform:translate(711.5px,51.5px); }
+  91.667% { transform:translate(711.5px,66.5px); }
+  92.708% { transform:translate(711.5px,81.5px); }
+  93.750% { transform:translate(711.5px,96.5px); }
+  94.792% { transform:translate(711.5px,111.5px); }
+  95.833% { transform:translate(711.5px,126.5px); }
+  96.875% { transform:translate(726.5px,126.5px); }
+  97.917% { transform:translate(741.5px,126.5px); }
+  98.958% { transform:translate(741.5px,126.5px); }
+}
+</style>
+<style>
+@keyframes ex-7-2 {
+  0%,7.192% { opacity:0; transform:scale(0); transform-origin:141.5px 66.5px; }
+  7.292%,7.792% { opacity:1; transform:scale(0.8); transform-origin:141.5px 66.5px; }
+  8.092%,8.792% { opacity:1; transform:scale(1.3); transform-origin:141.5px 66.5px; }
+  9.092%,17.208% { opacity:1; transform:scale(1); transform-origin:141.5px 66.5px; }
+  17.708%,100% { opacity:0; transform:scale(0); transform-origin:141.5px 66.5px; }
+}
+</style>
+<g class="ex-7-2" style="opacity:0">
+  <rect x="138.5" y="63.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="141.5" cy="62.5" r="1.2" fill="#ef4444"/>
+  <rect x="135.0" y="60.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-8-3 {
+  0%,10.317% { opacity:0; transform:scale(0); transform-origin:156.5px 81.5px; }
+  10.417%,10.917% { opacity:1; transform:scale(0.8); transform-origin:156.5px 81.5px; }
+  11.217%,11.917% { opacity:1; transform:scale(1.3); transform-origin:156.5px 81.5px; }
+  12.217%,20.333% { opacity:1; transform:scale(1); transform-origin:156.5px 81.5px; }
+  20.833%,100% { opacity:0; transform:scale(0); transform-origin:156.5px 81.5px; }
+}
+</style>
+<g class="ex-8-3" style="opacity:0">
+  <rect x="153.5" y="78.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="156.5" cy="77.5" r="1.2" fill="#ef4444"/>
+  <rect x="150.0" y="75.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-15-6 {
+  0%,21.775% { opacity:0; transform:scale(0); transform-origin:261.5px 126.5px; }
+  21.875%,22.375% { opacity:1; transform:scale(0.8); transform-origin:261.5px 126.5px; }
+  22.675%,23.375% { opacity:1; transform:scale(1.3); transform-origin:261.5px 126.5px; }
+  23.675%,31.792% { opacity:1; transform:scale(1); transform-origin:261.5px 126.5px; }
+  32.292%,100% { opacity:0; transform:scale(0); transform-origin:261.5px 126.5px; }
+}
+</style>
+<g class="ex-15-6" style="opacity:0">
+  <rect x="258.5" y="123.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="261.5" cy="122.5" r="1.2" fill="#ef4444"/>
+  <rect x="255.0" y="120.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-16-1 {
+  0%,26.983% { opacity:0; transform:scale(0); transform-origin:276.5px 51.5px; }
+  27.083%,27.583% { opacity:1; transform:scale(0.8); transform-origin:276.5px 51.5px; }
+  27.883%,28.583% { opacity:1; transform:scale(1.3); transform-origin:276.5px 51.5px; }
+  28.883%,37.000% { opacity:1; transform:scale(1); transform-origin:276.5px 51.5px; }
+  37.500%,100% { opacity:0; transform:scale(0); transform-origin:276.5px 51.5px; }
+}
+</style>
+<g class="ex-16-1" style="opacity:0">
+  <rect x="273.5" y="48.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="276.5" cy="47.5" r="1.2" fill="#ef4444"/>
+  <rect x="270.0" y="45.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-23-1 {
+  0%,35.317% { opacity:0; transform:scale(0); transform-origin:381.5px 51.5px; }
+  35.417%,35.917% { opacity:1; transform:scale(0.8); transform-origin:381.5px 51.5px; }
+  36.217%,36.917% { opacity:1; transform:scale(1.3); transform-origin:381.5px 51.5px; }
+  37.217%,45.333% { opacity:1; transform:scale(1); transform-origin:381.5px 51.5px; }
+  45.833%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 51.5px; }
+}
+</style>
+<g class="ex-23-1" style="opacity:0">
+  <rect x="378.5" y="48.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="381.5" cy="47.5" r="1.2" fill="#ef4444"/>
+  <rect x="375.0" y="45.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-23-4 {
+  0%,39.483% { opacity:0; transform:scale(0); transform-origin:381.5px 96.5px; }
+  39.583%,40.083% { opacity:1; transform:scale(0.8); transform-origin:381.5px 96.5px; }
+  40.383%,41.083% { opacity:1; transform:scale(1.3); transform-origin:381.5px 96.5px; }
+  41.383%,49.500% { opacity:1; transform:scale(1); transform-origin:381.5px 96.5px; }
+  50.000%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 96.5px; }
+}
+</style>
+<g class="ex-23-4" style="opacity:0">
+  <rect x="378.5" y="93.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="381.5" cy="92.5" r="1.2" fill="#ef4444"/>
+  <rect x="375.0" y="90.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-24-7 {
+  0%,44.692% { opacity:0; transform:scale(0); transform-origin:396.5px 141.5px; }
+  44.792%,45.292% { opacity:1; transform:scale(0.8); transform-origin:396.5px 141.5px; }
+  45.592%,46.292% { opacity:1; transform:scale(1.3); transform-origin:396.5px 141.5px; }
+  46.592%,54.708% { opacity:1; transform:scale(1); transform-origin:396.5px 141.5px; }
+  55.208%,100% { opacity:0; transform:scale(0); transform-origin:396.5px 141.5px; }
+}
+</style>
+<g class="ex-24-7" style="opacity:0">
+  <rect x="393.5" y="138.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="396.5" cy="137.5" r="1.2" fill="#ef4444"/>
+  <rect x="390.0" y="135.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-26-2 {
+  0%,50.942% { opacity:0; transform:scale(0); transform-origin:426.5px 66.5px; }
+  51.042%,51.542% { opacity:1; transform:scale(0.8); transform-origin:426.5px 66.5px; }
+  51.842%,52.542% { opacity:1; transform:scale(1.3); transform-origin:426.5px 66.5px; }
+  52.842%,60.958% { opacity:1; transform:scale(1); transform-origin:426.5px 66.5px; }
+  61.458%,100% { opacity:0; transform:scale(0); transform-origin:426.5px 66.5px; }
+}
+</style>
+<g class="ex-26-2" style="opacity:0">
+  <rect x="423.5" y="63.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="426.5" cy="62.5" r="1.2" fill="#ef4444"/>
+  <rect x="420.0" y="60.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-31-1 {
+  0%,58.233% { opacity:0; transform:scale(0); transform-origin:501.5px 51.5px; }
+  58.333%,58.833% { opacity:1; transform:scale(0.8); transform-origin:501.5px 51.5px; }
+  59.133%,59.833% { opacity:1; transform:scale(1.3); transform-origin:501.5px 51.5px; }
+  60.133%,68.250% { opacity:1; transform:scale(1); transform-origin:501.5px 51.5px; }
+  68.750%,100% { opacity:0; transform:scale(0); transform-origin:501.5px 51.5px; }
+}
+</style>
+<g class="ex-31-1" style="opacity:0">
+  <rect x="498.5" y="48.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="501.5" cy="47.5" r="1.2" fill="#ef4444"/>
+  <rect x="495.0" y="45.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-37-3 {
+  0%,67.608% { opacity:0; transform:scale(0); transform-origin:591.5px 81.5px; }
+  67.708%,68.208% { opacity:1; transform:scale(0.8); transform-origin:591.5px 81.5px; }
+  68.508%,69.208% { opacity:1; transform:scale(1.3); transform-origin:591.5px 81.5px; }
+  69.508%,77.625% { opacity:1; transform:scale(1); transform-origin:591.5px 81.5px; }
+  78.125%,100% { opacity:0; transform:scale(0); transform-origin:591.5px 81.5px; }
+}
+</style>
+<g class="ex-37-3" style="opacity:0">
+  <rect x="588.5" y="78.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="591.5" cy="77.5" r="1.2" fill="#ef4444"/>
+  <rect x="585.0" y="75.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-38-2 {
+  0%,68.650% { opacity:0; transform:scale(0); transform-origin:606.5px 66.5px; }
+  68.750%,69.250% { opacity:1; transform:scale(0.8); transform-origin:606.5px 66.5px; }
+  69.550%,70.250% { opacity:1; transform:scale(1.3); transform-origin:606.5px 66.5px; }
+  70.550%,78.667% { opacity:1; transform:scale(1); transform-origin:606.5px 66.5px; }
+  79.167%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 66.5px; }
+}
+</style>
+<g class="ex-38-2" style="opacity:0">
+  <rect x="603.5" y="63.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="606.5" cy="62.5" r="1.2" fill="#ef4444"/>
+  <rect x="600.0" y="60.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-38-5 {
+  0%,72.817% { opacity:0; transform:scale(0); transform-origin:606.5px 111.5px; }
+  72.917%,73.417% { opacity:1; transform:scale(0.8); transform-origin:606.5px 111.5px; }
+  73.717%,74.417% { opacity:1; transform:scale(1.3); transform-origin:606.5px 111.5px; }
+  74.717%,82.833% { opacity:1; transform:scale(1); transform-origin:606.5px 111.5px; }
+  83.333%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 111.5px; }
+}
+</style>
+<g class="ex-38-5" style="opacity:0">
+  <rect x="603.5" y="108.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="606.5" cy="107.5" r="1.2" fill="#ef4444"/>
+  <rect x="600.0" y="105.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-39-7 {
+  0%,76.983% { opacity:0; transform:scale(0); transform-origin:621.5px 141.5px; }
+  77.083%,77.583% { opacity:1; transform:scale(0.8); transform-origin:621.5px 141.5px; }
+  77.883%,78.583% { opacity:1; transform:scale(1.3); transform-origin:621.5px 141.5px; }
+  78.883%,87.000% { opacity:1; transform:scale(1); transform-origin:621.5px 141.5px; }
+  87.500%,100% { opacity:0; transform:scale(0); transform-origin:621.5px 141.5px; }
+}
+</style>
+<g class="ex-39-7" style="opacity:0">
+  <rect x="618.5" y="138.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="621.5" cy="137.5" r="1.2" fill="#ef4444"/>
+  <rect x="615.0" y="135.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-44-7 {
+  0%,83.233% { opacity:0; transform:scale(0); transform-origin:696.5px 141.5px; }
+  83.333%,83.833% { opacity:1; transform:scale(0.8); transform-origin:696.5px 141.5px; }
+  84.133%,84.833% { opacity:1; transform:scale(1.3); transform-origin:696.5px 141.5px; }
+  85.133%,93.250% { opacity:1; transform:scale(1); transform-origin:696.5px 141.5px; }
+  93.750%,100% { opacity:0; transform:scale(0); transform-origin:696.5px 141.5px; }
+}
+</style>
+<g class="ex-44-7" style="opacity:0">
+  <rect x="693.5" y="138.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="696.5" cy="137.5" r="1.2" fill="#ef4444"/>
+  <rect x="690.0" y="135.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-46-1 {
+  0%,90.525% { opacity:0; transform:scale(0); transform-origin:726.5px 51.5px; }
+  90.625%,91.125% { opacity:1; transform:scale(0.8); transform-origin:726.5px 51.5px; }
+  91.425%,92.125% { opacity:1; transform:scale(1.3); transform-origin:726.5px 51.5px; }
+  92.425%,100.542% { opacity:1; transform:scale(1); transform-origin:726.5px 51.5px; }
+  101.042%,100% { opacity:0; transform:scale(0); transform-origin:726.5px 51.5px; }
+}
+</style>
+<g class="ex-46-1" style="opacity:0">
+  <rect x="723.5" y="48.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="726.5" cy="47.5" r="1.2" fill="#ef4444"/>
+  <rect x="720.0" y="45.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes ex-47-7 {
+  0%,98.858% { opacity:0; transform:scale(0); transform-origin:741.5px 141.5px; }
+  98.958%,99.458% { opacity:1; transform:scale(0.8); transform-origin:741.5px 141.5px; }
+  99.758%,100.458% { opacity:1; transform:scale(1.3); transform-origin:741.5px 141.5px; }
+  100.758%,108.875% { opacity:1; transform:scale(1); transform-origin:741.5px 141.5px; }
+  109.375%,100% { opacity:0; transform:scale(0); transform-origin:741.5px 141.5px; }
+}
+</style>
+<g class="ex-47-7" style="opacity:0">
+  <rect x="738.5" y="138.5" width="6" height="6" rx="1.5" fill="#374151"/>
+  <circle cx="741.5" cy="137.5" r="1.2" fill="#ef4444"/>
+  <rect x="735.0" y="135.0" width="13" height="13" rx="2" fill="#f97316" style="opacity:0.9"/>
+</g>
+<style>
+@keyframes xf-6-2 {
+  0%,8.292% { opacity:0; transform:scale(0); transform-origin:126.5px 66.5px; }
+  8.792%,9.792% { opacity:0.8; transform:scale(1); transform-origin:126.5px 66.5px; }
+  17.708%,100% { opacity:0; transform:scale(0); transform-origin:126.5px 66.5px; }
+}
+</style>
+  <rect class="xf-6-2" x="120.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-7-1 {
+  0%,8.292% { opacity:0; transform:scale(0); transform-origin:141.5px 51.5px; }
+  8.792%,9.792% { opacity:0.8; transform:scale(1); transform-origin:141.5px 51.5px; }
+  17.708%,100% { opacity:0; transform:scale(0); transform-origin:141.5px 51.5px; }
+}
+</style>
+  <rect class="xf-7-1" x="135.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-7-3 {
+  0%,8.292% { opacity:0; transform:scale(0); transform-origin:141.5px 81.5px; }
+  8.792%,9.792% { opacity:0.8; transform:scale(1); transform-origin:141.5px 81.5px; }
+  17.708%,100% { opacity:0; transform:scale(0); transform-origin:141.5px 81.5px; }
+}
+</style>
+  <rect class="xf-7-3" x="135.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-8-2 {
+  0%,8.292% { opacity:0; transform:scale(0); transform-origin:156.5px 66.5px; }
+  8.792%,9.792% { opacity:0.8; transform:scale(1); transform-origin:156.5px 66.5px; }
+  17.708%,100% { opacity:0; transform:scale(0); transform-origin:156.5px 66.5px; }
+}
+</style>
+  <rect class="xf-8-2" x="150.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-8-4 {
+  0%,11.417% { opacity:0; transform:scale(0); transform-origin:156.5px 96.5px; }
+  11.917%,12.917% { opacity:0.8; transform:scale(1); transform-origin:156.5px 96.5px; }
+  20.833%,100% { opacity:0; transform:scale(0); transform-origin:156.5px 96.5px; }
+}
+</style>
+  <rect class="xf-8-4" x="150.0" y="90.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-9-3 {
+  0%,11.417% { opacity:0; transform:scale(0); transform-origin:171.5px 81.5px; }
+  11.917%,12.917% { opacity:0.8; transform:scale(1); transform-origin:171.5px 81.5px; }
+  20.833%,100% { opacity:0; transform:scale(0); transform-origin:171.5px 81.5px; }
+}
+</style>
+  <rect class="xf-9-3" x="165.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-14-6 {
+  0%,22.875% { opacity:0; transform:scale(0); transform-origin:246.5px 126.5px; }
+  23.375%,24.375% { opacity:0.8; transform:scale(1); transform-origin:246.5px 126.5px; }
+  32.292%,100% { opacity:0; transform:scale(0); transform-origin:246.5px 126.5px; }
+}
+</style>
+  <rect class="xf-14-6" x="240.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-15-1 {
+  0%,28.083% { opacity:0; transform:scale(0); transform-origin:261.5px 51.5px; }
+  28.583%,29.583% { opacity:0.8; transform:scale(1); transform-origin:261.5px 51.5px; }
+  37.500%,100% { opacity:0; transform:scale(0); transform-origin:261.5px 51.5px; }
+}
+</style>
+  <rect class="xf-15-1" x="255.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-15-5 {
+  0%,22.875% { opacity:0; transform:scale(0); transform-origin:261.5px 111.5px; }
+  23.375%,24.375% { opacity:0.8; transform:scale(1); transform-origin:261.5px 111.5px; }
+  32.292%,100% { opacity:0; transform:scale(0); transform-origin:261.5px 111.5px; }
+}
+</style>
+  <rect class="xf-15-5" x="255.0" y="105.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-15-7 {
+  0%,22.875% { opacity:0; transform:scale(0); transform-origin:261.5px 141.5px; }
+  23.375%,24.375% { opacity:0.8; transform:scale(1); transform-origin:261.5px 141.5px; }
+  32.292%,100% { opacity:0; transform:scale(0); transform-origin:261.5px 141.5px; }
+}
+</style>
+  <rect class="xf-15-7" x="255.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-16-0 {
+  0%,28.083% { opacity:0; transform:scale(0); transform-origin:276.5px 36.5px; }
+  28.583%,29.583% { opacity:0.8; transform:scale(1); transform-origin:276.5px 36.5px; }
+  37.500%,100% { opacity:0; transform:scale(0); transform-origin:276.5px 36.5px; }
+}
+</style>
+  <rect class="xf-16-0" x="270.0" y="30.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-16-2 {
+  0%,28.083% { opacity:0; transform:scale(0); transform-origin:276.5px 66.5px; }
+  28.583%,29.583% { opacity:0.8; transform:scale(1); transform-origin:276.5px 66.5px; }
+  37.500%,100% { opacity:0; transform:scale(0); transform-origin:276.5px 66.5px; }
+}
+</style>
+  <rect class="xf-16-2" x="270.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-16-6 {
+  0%,22.875% { opacity:0; transform:scale(0); transform-origin:276.5px 126.5px; }
+  23.375%,24.375% { opacity:0.8; transform:scale(1); transform-origin:276.5px 126.5px; }
+  32.292%,100% { opacity:0; transform:scale(0); transform-origin:276.5px 126.5px; }
+}
+</style>
+  <rect class="xf-16-6" x="270.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-17-1 {
+  0%,28.083% { opacity:0; transform:scale(0); transform-origin:291.5px 51.5px; }
+  28.583%,29.583% { opacity:0.8; transform:scale(1); transform-origin:291.5px 51.5px; }
+  37.500%,100% { opacity:0; transform:scale(0); transform-origin:291.5px 51.5px; }
+}
+</style>
+  <rect class="xf-17-1" x="285.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-22-1 {
+  0%,36.417% { opacity:0; transform:scale(0); transform-origin:366.5px 51.5px; }
+  36.917%,37.917% { opacity:0.8; transform:scale(1); transform-origin:366.5px 51.5px; }
+  45.833%,100% { opacity:0; transform:scale(0); transform-origin:366.5px 51.5px; }
+}
+</style>
+  <rect class="xf-22-1" x="360.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-22-4 {
+  0%,40.583% { opacity:0; transform:scale(0); transform-origin:366.5px 96.5px; }
+  41.083%,42.083% { opacity:0.8; transform:scale(1); transform-origin:366.5px 96.5px; }
+  50.000%,100% { opacity:0; transform:scale(0); transform-origin:366.5px 96.5px; }
+}
+</style>
+  <rect class="xf-22-4" x="360.0" y="90.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-23-0 {
+  0%,36.417% { opacity:0; transform:scale(0); transform-origin:381.5px 36.5px; }
+  36.917%,37.917% { opacity:0.8; transform:scale(1); transform-origin:381.5px 36.5px; }
+  45.833%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 36.5px; }
+}
+</style>
+  <rect class="xf-23-0" x="375.0" y="30.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-23-2 {
+  0%,36.417% { opacity:0; transform:scale(0); transform-origin:381.5px 66.5px; }
+  36.917%,37.917% { opacity:0.8; transform:scale(1); transform-origin:381.5px 66.5px; }
+  45.833%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 66.5px; }
+}
+</style>
+  <rect class="xf-23-2" x="375.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-23-3 {
+  0%,40.583% { opacity:0; transform:scale(0); transform-origin:381.5px 81.5px; }
+  41.083%,42.083% { opacity:0.8; transform:scale(1); transform-origin:381.5px 81.5px; }
+  50.000%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 81.5px; }
+}
+</style>
+  <rect class="xf-23-3" x="375.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-23-5 {
+  0%,40.583% { opacity:0; transform:scale(0); transform-origin:381.5px 111.5px; }
+  41.083%,42.083% { opacity:0.8; transform:scale(1); transform-origin:381.5px 111.5px; }
+  50.000%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 111.5px; }
+}
+</style>
+  <rect class="xf-23-5" x="375.0" y="105.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-23-7 {
+  0%,45.792% { opacity:0; transform:scale(0); transform-origin:381.5px 141.5px; }
+  46.292%,47.292% { opacity:0.8; transform:scale(1); transform-origin:381.5px 141.5px; }
+  55.208%,100% { opacity:0; transform:scale(0); transform-origin:381.5px 141.5px; }
+}
+</style>
+  <rect class="xf-23-7" x="375.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-24-1 {
+  0%,36.417% { opacity:0; transform:scale(0); transform-origin:396.5px 51.5px; }
+  36.917%,37.917% { opacity:0.8; transform:scale(1); transform-origin:396.5px 51.5px; }
+  45.833%,100% { opacity:0; transform:scale(0); transform-origin:396.5px 51.5px; }
+}
+</style>
+  <rect class="xf-24-1" x="390.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-24-4 {
+  0%,40.583% { opacity:0; transform:scale(0); transform-origin:396.5px 96.5px; }
+  41.083%,42.083% { opacity:0.8; transform:scale(1); transform-origin:396.5px 96.5px; }
+  50.000%,100% { opacity:0; transform:scale(0); transform-origin:396.5px 96.5px; }
+}
+</style>
+  <rect class="xf-24-4" x="390.0" y="90.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-24-6 {
+  0%,45.792% { opacity:0; transform:scale(0); transform-origin:396.5px 126.5px; }
+  46.292%,47.292% { opacity:0.8; transform:scale(1); transform-origin:396.5px 126.5px; }
+  55.208%,100% { opacity:0; transform:scale(0); transform-origin:396.5px 126.5px; }
+}
+</style>
+  <rect class="xf-24-6" x="390.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-24-8 {
+  0%,45.792% { opacity:0; transform:scale(0); transform-origin:396.5px 156.5px; }
+  46.292%,47.292% { opacity:0.8; transform:scale(1); transform-origin:396.5px 156.5px; }
+  55.208%,100% { opacity:0; transform:scale(0); transform-origin:396.5px 156.5px; }
+}
+</style>
+  <rect class="xf-24-8" x="390.0" y="150.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-25-2 {
+  0%,52.042% { opacity:0; transform:scale(0); transform-origin:411.5px 66.5px; }
+  52.542%,53.542% { opacity:0.8; transform:scale(1); transform-origin:411.5px 66.5px; }
+  61.458%,100% { opacity:0; transform:scale(0); transform-origin:411.5px 66.5px; }
+}
+</style>
+  <rect class="xf-25-2" x="405.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-25-7 {
+  0%,45.792% { opacity:0; transform:scale(0); transform-origin:411.5px 141.5px; }
+  46.292%,47.292% { opacity:0.8; transform:scale(1); transform-origin:411.5px 141.5px; }
+  55.208%,100% { opacity:0; transform:scale(0); transform-origin:411.5px 141.5px; }
+}
+</style>
+  <rect class="xf-25-7" x="405.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-26-1 {
+  0%,52.042% { opacity:0; transform:scale(0); transform-origin:426.5px 51.5px; }
+  52.542%,53.542% { opacity:0.8; transform:scale(1); transform-origin:426.5px 51.5px; }
+  61.458%,100% { opacity:0; transform:scale(0); transform-origin:426.5px 51.5px; }
+}
+</style>
+  <rect class="xf-26-1" x="420.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-26-3 {
+  0%,52.042% { opacity:0; transform:scale(0); transform-origin:426.5px 81.5px; }
+  52.542%,53.542% { opacity:0.8; transform:scale(1); transform-origin:426.5px 81.5px; }
+  61.458%,100% { opacity:0; transform:scale(0); transform-origin:426.5px 81.5px; }
+}
+</style>
+  <rect class="xf-26-3" x="420.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-27-2 {
+  0%,52.042% { opacity:0; transform:scale(0); transform-origin:441.5px 66.5px; }
+  52.542%,53.542% { opacity:0.8; transform:scale(1); transform-origin:441.5px 66.5px; }
+  61.458%,100% { opacity:0; transform:scale(0); transform-origin:441.5px 66.5px; }
+}
+</style>
+  <rect class="xf-27-2" x="435.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-30-1 {
+  0%,59.333% { opacity:0; transform:scale(0); transform-origin:486.5px 51.5px; }
+  59.833%,60.833% { opacity:0.8; transform:scale(1); transform-origin:486.5px 51.5px; }
+  68.750%,100% { opacity:0; transform:scale(0); transform-origin:486.5px 51.5px; }
+}
+</style>
+  <rect class="xf-30-1" x="480.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-31-0 {
+  0%,59.333% { opacity:0; transform:scale(0); transform-origin:501.5px 36.5px; }
+  59.833%,60.833% { opacity:0.8; transform:scale(1); transform-origin:501.5px 36.5px; }
+  68.750%,100% { opacity:0; transform:scale(0); transform-origin:501.5px 36.5px; }
+}
+</style>
+  <rect class="xf-31-0" x="495.0" y="30.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-31-2 {
+  0%,59.333% { opacity:0; transform:scale(0); transform-origin:501.5px 66.5px; }
+  59.833%,60.833% { opacity:0.8; transform:scale(1); transform-origin:501.5px 66.5px; }
+  68.750%,100% { opacity:0; transform:scale(0); transform-origin:501.5px 66.5px; }
+}
+</style>
+  <rect class="xf-31-2" x="495.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-32-1 {
+  0%,59.333% { opacity:0; transform:scale(0); transform-origin:516.5px 51.5px; }
+  59.833%,60.833% { opacity:0.8; transform:scale(1); transform-origin:516.5px 51.5px; }
+  68.750%,100% { opacity:0; transform:scale(0); transform-origin:516.5px 51.5px; }
+}
+</style>
+  <rect class="xf-32-1" x="510.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-36-3 {
+  0%,68.708% { opacity:0; transform:scale(0); transform-origin:576.5px 81.5px; }
+  69.208%,70.208% { opacity:0.8; transform:scale(1); transform-origin:576.5px 81.5px; }
+  78.125%,100% { opacity:0; transform:scale(0); transform-origin:576.5px 81.5px; }
+}
+</style>
+  <rect class="xf-36-3" x="570.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-37-2 {
+  0%,68.708% { opacity:0; transform:scale(0); transform-origin:591.5px 66.5px; }
+  69.208%,70.208% { opacity:0.8; transform:scale(1); transform-origin:591.5px 66.5px; }
+  78.125%,100% { opacity:0; transform:scale(0); transform-origin:591.5px 66.5px; }
+}
+</style>
+  <rect class="xf-37-2" x="585.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-37-4 {
+  0%,68.708% { opacity:0; transform:scale(0); transform-origin:591.5px 96.5px; }
+  69.208%,70.208% { opacity:0.8; transform:scale(1); transform-origin:591.5px 96.5px; }
+  78.125%,100% { opacity:0; transform:scale(0); transform-origin:591.5px 96.5px; }
+}
+</style>
+  <rect class="xf-37-4" x="585.0" y="90.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-37-5 {
+  0%,73.917% { opacity:0; transform:scale(0); transform-origin:591.5px 111.5px; }
+  74.417%,75.417% { opacity:0.8; transform:scale(1); transform-origin:591.5px 111.5px; }
+  83.333%,100% { opacity:0; transform:scale(0); transform-origin:591.5px 111.5px; }
+}
+</style>
+  <rect class="xf-37-5" x="585.0" y="105.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-38-1 {
+  0%,69.750% { opacity:0; transform:scale(0); transform-origin:606.5px 51.5px; }
+  70.250%,71.250% { opacity:0.8; transform:scale(1); transform-origin:606.5px 51.5px; }
+  79.167%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 51.5px; }
+}
+</style>
+  <rect class="xf-38-1" x="600.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-38-3 {
+  0%,68.708% { opacity:0; transform:scale(0); transform-origin:606.5px 81.5px; }
+  69.208%,70.208% { opacity:0.8; transform:scale(1); transform-origin:606.5px 81.5px; }
+  78.125%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 81.5px; }
+}
+</style>
+  <rect class="xf-38-3" x="600.0" y="75.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-38-4 {
+  0%,73.917% { opacity:0; transform:scale(0); transform-origin:606.5px 96.5px; }
+  74.417%,75.417% { opacity:0.8; transform:scale(1); transform-origin:606.5px 96.5px; }
+  83.333%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 96.5px; }
+}
+</style>
+  <rect class="xf-38-4" x="600.0" y="90.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-38-6 {
+  0%,73.917% { opacity:0; transform:scale(0); transform-origin:606.5px 126.5px; }
+  74.417%,75.417% { opacity:0.8; transform:scale(1); transform-origin:606.5px 126.5px; }
+  83.333%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 126.5px; }
+}
+</style>
+  <rect class="xf-38-6" x="600.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-38-7 {
+  0%,78.083% { opacity:0; transform:scale(0); transform-origin:606.5px 141.5px; }
+  78.583%,79.583% { opacity:0.8; transform:scale(1); transform-origin:606.5px 141.5px; }
+  87.500%,100% { opacity:0; transform:scale(0); transform-origin:606.5px 141.5px; }
+}
+</style>
+  <rect class="xf-38-7" x="600.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-39-2 {
+  0%,69.750% { opacity:0; transform:scale(0); transform-origin:621.5px 66.5px; }
+  70.250%,71.250% { opacity:0.8; transform:scale(1); transform-origin:621.5px 66.5px; }
+  79.167%,100% { opacity:0; transform:scale(0); transform-origin:621.5px 66.5px; }
+}
+</style>
+  <rect class="xf-39-2" x="615.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-39-5 {
+  0%,73.917% { opacity:0; transform:scale(0); transform-origin:621.5px 111.5px; }
+  74.417%,75.417% { opacity:0.8; transform:scale(1); transform-origin:621.5px 111.5px; }
+  83.333%,100% { opacity:0; transform:scale(0); transform-origin:621.5px 111.5px; }
+}
+</style>
+  <rect class="xf-39-5" x="615.0" y="105.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-39-6 {
+  0%,78.083% { opacity:0; transform:scale(0); transform-origin:621.5px 126.5px; }
+  78.583%,79.583% { opacity:0.8; transform:scale(1); transform-origin:621.5px 126.5px; }
+  87.500%,100% { opacity:0; transform:scale(0); transform-origin:621.5px 126.5px; }
+}
+</style>
+  <rect class="xf-39-6" x="615.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-39-8 {
+  0%,78.083% { opacity:0; transform:scale(0); transform-origin:621.5px 156.5px; }
+  78.583%,79.583% { opacity:0.8; transform:scale(1); transform-origin:621.5px 156.5px; }
+  87.500%,100% { opacity:0; transform:scale(0); transform-origin:621.5px 156.5px; }
+}
+</style>
+  <rect class="xf-39-8" x="615.0" y="150.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-40-7 {
+  0%,78.083% { opacity:0; transform:scale(0); transform-origin:636.5px 141.5px; }
+  78.583%,79.583% { opacity:0.8; transform:scale(1); transform-origin:636.5px 141.5px; }
+  87.500%,100% { opacity:0; transform:scale(0); transform-origin:636.5px 141.5px; }
+}
+</style>
+  <rect class="xf-40-7" x="630.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-43-7 {
+  0%,84.333% { opacity:0; transform:scale(0); transform-origin:681.5px 141.5px; }
+  84.833%,85.833% { opacity:0.8; transform:scale(1); transform-origin:681.5px 141.5px; }
+  93.750%,100% { opacity:0; transform:scale(0); transform-origin:681.5px 141.5px; }
+}
+</style>
+  <rect class="xf-43-7" x="675.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-44-6 {
+  0%,84.333% { opacity:0; transform:scale(0); transform-origin:696.5px 126.5px; }
+  84.833%,85.833% { opacity:0.8; transform:scale(1); transform-origin:696.5px 126.5px; }
+  93.750%,100% { opacity:0; transform:scale(0); transform-origin:696.5px 126.5px; }
+}
+</style>
+  <rect class="xf-44-6" x="690.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-44-8 {
+  0%,84.333% { opacity:0; transform:scale(0); transform-origin:696.5px 156.5px; }
+  84.833%,85.833% { opacity:0.8; transform:scale(1); transform-origin:696.5px 156.5px; }
+  93.750%,100% { opacity:0; transform:scale(0); transform-origin:696.5px 156.5px; }
+}
+</style>
+  <rect class="xf-44-8" x="690.0" y="150.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-45-1 {
+  0%,91.625% { opacity:0; transform:scale(0); transform-origin:711.5px 51.5px; }
+  92.125%,93.125% { opacity:0.8; transform:scale(1); transform-origin:711.5px 51.5px; }
+  101.042%,100% { opacity:0; transform:scale(0); transform-origin:711.5px 51.5px; }
+}
+</style>
+  <rect class="xf-45-1" x="705.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-45-7 {
+  0%,84.333% { opacity:0; transform:scale(0); transform-origin:711.5px 141.5px; }
+  84.833%,85.833% { opacity:0.8; transform:scale(1); transform-origin:711.5px 141.5px; }
+  93.750%,100% { opacity:0; transform:scale(0); transform-origin:711.5px 141.5px; }
+}
+</style>
+  <rect class="xf-45-7" x="705.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-46-0 {
+  0%,91.625% { opacity:0; transform:scale(0); transform-origin:726.5px 36.5px; }
+  92.125%,93.125% { opacity:0.8; transform:scale(1); transform-origin:726.5px 36.5px; }
+  101.042%,100% { opacity:0; transform:scale(0); transform-origin:726.5px 36.5px; }
+}
+</style>
+  <rect class="xf-46-0" x="720.0" y="30.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-46-2 {
+  0%,91.625% { opacity:0; transform:scale(0); transform-origin:726.5px 66.5px; }
+  92.125%,93.125% { opacity:0.8; transform:scale(1); transform-origin:726.5px 66.5px; }
+  101.042%,100% { opacity:0; transform:scale(0); transform-origin:726.5px 66.5px; }
+}
+</style>
+  <rect class="xf-46-2" x="720.0" y="60.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-46-7 {
+  0%,99.958% { opacity:0; transform:scale(0); transform-origin:726.5px 141.5px; }
+  100.458%,101.458% { opacity:0.8; transform:scale(1); transform-origin:726.5px 141.5px; }
+  109.375%,100% { opacity:0; transform:scale(0); transform-origin:726.5px 141.5px; }
+}
+</style>
+  <rect class="xf-46-7" x="720.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-47-1 {
+  0%,91.625% { opacity:0; transform:scale(0); transform-origin:741.5px 51.5px; }
+  92.125%,93.125% { opacity:0.8; transform:scale(1); transform-origin:741.5px 51.5px; }
+  101.042%,100% { opacity:0; transform:scale(0); transform-origin:741.5px 51.5px; }
+}
+</style>
+  <rect class="xf-47-1" x="735.0" y="45.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-47-6 {
+  0%,99.958% { opacity:0; transform:scale(0); transform-origin:741.5px 126.5px; }
+  100.458%,101.458% { opacity:0.8; transform:scale(1); transform-origin:741.5px 126.5px; }
+  109.375%,100% { opacity:0; transform:scale(0); transform-origin:741.5px 126.5px; }
+}
+</style>
+  <rect class="xf-47-6" x="735.0" y="120.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-47-8 {
+  0%,99.958% { opacity:0; transform:scale(0); transform-origin:741.5px 156.5px; }
+  100.458%,101.458% { opacity:0.8; transform:scale(1); transform-origin:741.5px 156.5px; }
+  109.375%,100% { opacity:0; transform:scale(0); transform-origin:741.5px 156.5px; }
+}
+</style>
+  <rect class="xf-47-8" x="735.0" y="150.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+<style>
+@keyframes xf-48-7 {
+  0%,99.958% { opacity:0; transform:scale(0); transform-origin:756.5px 141.5px; }
+  100.458%,101.458% { opacity:0.8; transform:scale(1); transform-origin:756.5px 141.5px; }
+  109.375%,100% { opacity:0; transform:scale(0); transform-origin:756.5px 141.5px; }
+}
+</style>
+  <rect class="xf-48-7" x="750.0" y="135.0" width="13" height="13" rx="2" fill="#facc15" style="opacity:0">
+  </rect>
+</svg>

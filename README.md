@@ -75,6 +75,16 @@ Based in **Malang, East Java, Indonesia** · Indonesian and English
   <img alt="Git" src="https://img.shields.io/badge/Git-172033?style=flat-square&logo=git&logoColor=F05032">
 </p>
 
+## Contribution Grid
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution/bomberman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contribution/bomberman-light.svg">
+    <img alt="Bomberman contribution grid animation" src="./assets/contribution/bomberman-dark.svg" width="100%">
+  </picture>
+</p>
+
 ## Contact
 
 - **Email:** [mufidarhaburizky@gmail.com](mailto:mufidarhaburizky@gmail.com)
