@@ -23,6 +23,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           games: 'bomberman'
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fix SVG (remove Player 2, keep Player 1 alive)
+        run: |
+          python scripts/fix_bomberman.py dist/bomberman-contribution-graph.svg
+          python scripts/fix_bomberman.py dist/bomberman-contribution-graph-dark.svg
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
