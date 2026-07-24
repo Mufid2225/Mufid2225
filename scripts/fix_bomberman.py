@@ -29,19 +29,20 @@ def fix_bomberman_svg(svg: str) -> str:
         flags=re.DOTALL,
     )
 
-    # 5. Remove Player 2's animateTransform (second one, finds by position)
-    # Find all animateTransform and take only the one for player-1
-    # But easier: remove the second animateTransform after removing player-2 use
+    # 4. Remove Player 2's bombs (bomb-0, bomb-1)
+    for bid in range(2):
+        svg = re.sub(
+            rf'<g id="bomb-{bid}"[^>]*>.*?</g>',
+            '',
+            svg,
+            flags=re.DOTALL,
+        )
 
-    # 6. Fix Player 1 href animation: remove death sprites from values
+    # 5. Fix Player 1 href animation: remove death sprites
     def fix_p1_href(m):
-        full = m.group(0)
-        # Find the values attribute
-        inner = full
-        # Remove death sprite values from the values string
-        # Only keep keyTimes/values before death
+        inner = m.group(0)
         inner = re.sub(
-            r'(keyTimes="[^"]*0\.8679[^"]*")',
+            r'keyTimes="[^"]*0\.8679[^"]*"',
             'keyTimes="0;0.0377;0.0755;0.1132;0.1509;0.1887;0.2264;0.2642;0.3019;0.3396;0.3774;0.4151;0.4528;0.4906;0.5283;0.5472;0.566;0.5849;0.6038;0.717;0.7358;0.7547;0.7736;0.7925;1"',
             inner,
         )
@@ -59,7 +60,29 @@ def fix_bomberman_svg(svg: str) -> str:
         flags=re.DOTALL,
     )
 
-    # Clean up empty lines from removed elements
+    # 6. Fix Player 1 opacity: keep at 1 forever (remove death fade)
+    def fix_p1_opacity(m):
+        block = m.group(0)
+        block = re.sub(
+            r'keyTimes="[^"]*\.9623[^"]*"',
+            'keyTimes="0;1"',
+            block,
+        )
+        block = re.sub(
+            r'values="[^"]*0;0"',
+            'values="1;1"',
+            block,
+        )
+        return block
+
+    svg = re.sub(
+        r'<use id="player-1"[^>]*>.*?</use>',
+        fix_p1_opacity,
+        svg,
+        flags=re.DOTALL,
+    )
+
+    # Clean up empty lines
     svg = re.sub(r'\n\s*\n', '\n', svg)
 
     return svg
