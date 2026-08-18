@@ -30,7 +30,7 @@ Based in **Malang, East Java, Indonesia** · Indonesian and English
 | **Frontend Products** | Responsive Next.js experiences through projects such as RuangTeduh and Aligatour. |
 | **Desktop Applications** | Electron and SQLite workflows for checkout, inventory, shifts, and reporting through Kasir-App. |
 | **Backend Systems** | Go, Gin, MariaDB, Redis, and transactional application logic through SiPena. |
-| **AI & LLM Workflows** | Multi-provider routing, smart fallback, token compression, and automation through 9Router. |
+| **AI & LLM Workflows** | Offline wake word detection, real-time STT/TTS sidecars, Ollama LLM integration, and FTS5 memory through OLIVIA. |
 
 ## Featured Projects
 
@@ -40,7 +40,7 @@ Based in **Malang, East Java, Indonesia** · Indonesian and English
 | **RuangTeduh** | Mood-based coffee shop discovery experience with a responsive neo-brutalist interface. | Next.js, TypeScript, Tailwind CSS, Supabase | [Source](https://github.com/Mufid2225/ruangteduh) |
 | **Aligatour** | Responsive tour catalog with detailed services, SEO metadata, and WhatsApp reservations. | Next.js, TypeScript, Tailwind CSS, Netlify | [Live](https://aligatour.netlify.app/) · [Source](https://github.com/Mufid2225/aligatour) |
 | **SiPena** | Digital academic permit system built as a full-stack collaboration for school administration workflows. | Next.js, Go, Gin, MariaDB, Redis | [Live](https://www.sipena-smkn2.dedyn.io/) |
-| **9Router** | OpenAI-compatible AI router with multi-provider routing, smart fallback, and token compression. | Next.js, Express, SQLite | [Live](https://neriss4-9router-database-demo.hf.space/) · [Source](https://huggingface.co/spaces/Neriss4/9router-database-demo/tree/main) |
+| **OLIVIA** | Voice-first local AI assistant featuring offline wake word detection, real-time STT/TTS sidecars, Ollama LLM, and FTS5 persistent memory. | Next.js, TypeScript, Python, Bun, SQLite | [Source](https://github.com/Mufid2225/olivia) |
 
 ## Tech Stack
 
@@ -58,9 +58,19 @@ Based in **Malang, East Java, Indonesia** · Indonesian and English
 
 <p>
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-172033?style=flat-square&logo=nodedotjs&logoColor=5FA04E">
+  <img alt="Bun" src="https://img.shields.io/badge/Bun-172033?style=flat-square&logo=bun&logoColor=FBF0DF">
   <img alt="Electron" src="https://img.shields.io/badge/Electron-172033?style=flat-square&logo=electron&logoColor=9FEAF9">
+  <img alt="Python" src="https://img.shields.io/badge/Python-172033?style=flat-square&logo=python&logoColor=3776AB">
   <img alt="Go" src="https://img.shields.io/badge/Go-172033?style=flat-square&logo=go&logoColor=00ADD8">
   <img alt="Gin" src="https://img.shields.io/badge/Gin-172033?style=flat-square&logo=gin&logoColor=00ADD8">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-172033?style=flat-square&logo=fastapi&logoColor=009688">
+</p>
+
+### AI & LLM Tools
+
+<p>
+  <img alt="Ollama" src="https://img.shields.io/badge/Ollama-172033?style=flat-square&logo=ollama&logoColor=white">
+  <img alt="ONNX" src="https://img.shields.io/badge/ONNX-172033?style=flat-square&logo=onnx&logoColor=005CED">
 </p>
 
 ### Data & Infrastructure
